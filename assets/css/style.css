@@ -1,0 +1,11 @@
+h1 {
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#container {
+    margin-left: 20%;
+    font-size: 20px;
+}
