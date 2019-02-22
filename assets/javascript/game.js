@@ -19,6 +19,7 @@ document.onkeyup = function (event) {
     if (userGuess === computerGuess) {
         wins = wins + 1;
         guessesLeft = 10;
+        passedGuesses = "";
     }
     else if (userGuess !== computerGuess) {
         guessesLeft = guessesLeft - 1;    
